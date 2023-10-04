@@ -1,7 +1,6 @@
-package ClassExcerises.PersonalProjects;
+package ClassExcerises.Triangles;
 
 import java.util.Scanner;
-import java.lang.Math;
 
 public class UltimateTriangleCalculator {
     public static void main(String[] args) {

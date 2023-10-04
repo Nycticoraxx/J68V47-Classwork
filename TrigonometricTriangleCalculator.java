@@ -1,4 +1,4 @@
-package ClassExcerises.PersonalProjects;
+package ClassExcerises.Triangles;
 
 import java.util.Scanner;
 

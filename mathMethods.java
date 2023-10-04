@@ -4,34 +4,35 @@ import java.lang.Math;
 public class mathMethods {
     public static void main (String [] args){
 
-        double pi = 3.14;
-        double x = 30;
-        double y = -5;
+        double z = Math.max(10,5); // returns larger value
 
-        double z = Math.max(x,y);
-        System.out.println(z);
+        double q = Math.min(10,5); // returns smaller value
 
-        double q = Math.min(pi,y);
-        System.out.println(q);
+        double w = Math.abs(-10); //absolute value (takes away neg)
 
-        double w = Math.abs(y); //absolute value
-        System.out.println(w);
+        double c = Math.sqrt(16); // square root
 
-        double yi = 16;
-        double c = Math.sqrt(yi); // square root
-        System.out.println(c);
+        double pii = Math.round(3.14); // rounds number
 
-        double pii = Math.round(pi);
-        System.out.println(pii);
+        double cpi = Math.ceil(3.14); // ceil always rounds up
 
-        double cpi = Math.ceil(pi); // ceil always rounds up
-        System.out.println(cpi);
+        double dpi = Math.floor(3.14); // rounds down
 
-        double dpi = Math.floor(pi); // rounds down
-        System.out.println(dpi);
+        double num = Math.pow(10, 10); // power of 10 to 10 = 10000000000
 
+        double num2 = Math.cbrt(32); //cube root
 
+        double randomNum = Math.random(); // random num between 0.00 and 1
 
+        double sin = Math.sin(10); // gives value of sin at 10 degrees
+
+        double cos = Math.cos(10); // value of cos at 10 degrees
+
+        double tan = Math.tan(10); // value of tan at 10 degrees
+
+        double radians = Math.toRadians(100); // converts 100 degrees into radians
+
+        double logs = Math.log(4); // calculates the natural log of a number
 
     }
 }

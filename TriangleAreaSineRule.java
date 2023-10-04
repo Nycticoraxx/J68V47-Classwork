@@ -1,7 +1,6 @@
-package ClassExcerises.PersonalProjects;
+package ClassExcerises.Triangles;
 
 import java.util.Scanner;
-import java.lang.Math;
 public class TriangleAreaSineRule {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -3,7 +3,7 @@ package ClassExcerises.HowTo;
 import java.lang.reflect.GenericDeclaration;
 
 public class escapeSequences {
-    public static void main (String [] args){
+    public void main (String [] args){
 
         System.out.println("Hello \r New Line \r I'm back");
     }

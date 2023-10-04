@@ -10,7 +10,7 @@ public class ShapeGenerator {
 
         while (repeat) {
             System.out.println("Please type what shape you would like to generate:\n" +
-                    "Choose: square, circle, diamond, right angled triangle, equilateral triangle, pentagon, hexagon, " +
+                    "Choose: heart, square, circle, diamond, right angled triangle, equilateral triangle, pentagon, hexagon, " +
                     "rectangle, kite, octagon, or parallelogram. Please enter a minimum value of '10' later in the program.");
             String operation = scanner.nextLine().toLowerCase().trim();
 
@@ -25,6 +25,43 @@ public class ShapeGenerator {
                         for (int j = 0; j < size; j++) {
                             System.out.print("* ");
                         }
+                        System.out.println();
+                    }
+                }
+                case "heart" ->{
+
+                    System.out.println("Please enter how many units large you would like the heart: ");
+                    int n = scanner.nextInt();
+
+                    for (int i = n / 2; i <= n; i += 2) {
+                        for (int j = 1; j < n - i; j += 2) {
+                            System.out.print(" ");
+                        }
+
+                        for (int j = 1; j <= i; j++) {
+                            System.out.print("*");
+                        }
+
+                        for (int j = 1; j <= n - i; j++) {
+                            System.out.print(" ");
+                        }
+
+                        for (int j = 1; j <= i; j++) {
+                            System.out.print("*");
+                        }
+
+                        System.out.println();
+                    }
+
+                    for (int i = n; i >= 1; i--) {
+                        for (int j = i; j < n; j++) {
+                            System.out.print(" ");
+                        }
+
+                        for (int j = 1; j <= (i * 2) - 1; j++) {
+                            System.out.print("*");
+                        }
+
                         System.out.println();
                     }
                 }
